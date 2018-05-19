@@ -1,0 +1,36 @@
+<!--
+    wp-email-theme
+    just another email theme for CF7
+    -
+    find & replace reference
+    content
+        SITE_NAME
+        SITE_URL
+        SITE_EMAIL
+        SITE_LOGO_URL
+
+    style
+        BRAND_COLOR (HEX)
+-->
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>SITE_NAME</title>
+    </head>
+    <body>
+        <div style="font-family:'Arial', Helvetica, sans-serif; padding:20px; text-align:left; border:14px solid BRAND_COLOR;"> 
+            <a href="SITE_URL" title="SITE_NAME"><img src="SITE_LOGO_URL" width="150" border="0" alt="SITE_NAME" /></a>
+            <div style="padding-top:20px; padding-bottom:20px; font-weight:bold; font-size:18px;">information request from <span style="color:BRAND_COLOR;">SITE_NAME</span> - <a href="SITE_URL" style="color:BRAND_COLOR; text-decoration:none;" title="SITE_NAME">SITE_NAME</a><br /><br /><span style="color:BRAND_COLOR;">don't delete this email to keep the user data</span></div>  
+            <div style="border:1px solid #ccc; border-radius:3px; padding:10px; margin-bottom:20px;">
+                <div style="padding:5px;"><span style="color:BRAND_COLOR; font-weight:bold;"> name:</span> [your-name]</div>
+                <div style="padding:5px;"><span style="color:BRAND_COLOR; font-weight:bold;"> email:</span> <a href="[your-email]" style="color:#000; text-decoration:none;" title="SITE_NAME">[your-email]</a></div>
+                <div style="padding:5px;"><span style="color:BRAND_COLOR; font-weight:bold;"> page from:</span><a href="[_url]" style="color:#000; text-decoration:none;" title="SITE_NAME">click here</a></div>
+                <div style="padding:5px;"><span style="color:BRAND_COLOR; font-weight:bold;"> message <small></small>:</span> [your-message]</div>
+            </div>  
+            <div style="font-size:11px; padding-top:10px; color:#333; border-top:1px solid #ccc; text-align:left; background-color:#EFEFEF; padding:20px; line-height:18px;">This email may contain confidential and / or privileged information. If you are not the recipient (or received this message by mistake) please notify the sender immediately and cancel this email. Unauthorized copying and unauthorized distribution of this email is strictly prohibited. SITE_NAME - <a href="mailto:SITE_EMAIL" style="color:#333; text-decoration:none;" title="SITE_NAME">SITE_EMAIL</a> / <a href="SITE_URL" style="color:#333; text-decoration:none;" title="SITE_NAME">SITE_NAME</a></div>
+        </div>
+    </body>
+</html>
+
